@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "h/AMQ3C3QbY=",
+  "success": true,
+  "projectFilePath": "/home/rosssh/Documents/Telehealth/backend/telehealth/telehealth.csproj",
+  "expectedPackageFiles": [
+    "/home/rosssh/.nuget/packages/microsoft.aspnetcore.openapi/10.0.4/microsoft.aspnetcore.openapi.10.0.4.nupkg.sha512",
+    "/home/rosssh/.nuget/packages/microsoft.identitymodel.abstractions/8.17.0/microsoft.identitymodel.abstractions.8.17.0.nupkg.sha512",
+    "/home/rosssh/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.17.0/microsoft.identitymodel.jsonwebtokens.8.17.0.nupkg.sha512",
+    "/home/rosssh/.nuget/packages/microsoft.identitymodel.logging/8.17.0/microsoft.identitymodel.logging.8.17.0.nupkg.sha512",
+    "/home/rosssh/.nuget/packages/microsoft.identitymodel.tokens/8.17.0/microsoft.identitymodel.tokens.8.17.0.nupkg.sha512",
+    "/home/rosssh/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512",
+    "/home/rosssh/.nuget/packages/system.identitymodel.tokens.jwt/8.17.0/system.identitymodel.tokens.jwt.8.17.0.nupkg.sha512"
+  ],
+  "logs": []
+}

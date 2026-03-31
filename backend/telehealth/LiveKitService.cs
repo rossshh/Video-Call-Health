@@ -8,9 +8,11 @@ namespace telehealth;
 
 public class LiveKitService(IConfiguration configuration)
 {
-    private readonly string _apiKey = configuration["LiveKit:ApiKey"] ?? "devkey";
-    private readonly string _apiSecret = configuration["LiveKit:ApiSecret"] ?? "secret_must_be_32_characters_long_for_hs256";
+    private readonly string _apiKey =
+        Environment.GetEnvironmentVariable("LIVEKIT_API_KEY");
 
+    private readonly string _apiSecret =
+        Environment.GetEnvironmentVariable("LIVEKIT_API_SECRET");
     private static readonly JsonSerializerOptions JsonOptions = new()
     {
         PropertyNamingPolicy = JsonNamingPolicy.CamelCase,

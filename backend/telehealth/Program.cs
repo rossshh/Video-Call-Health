@@ -29,6 +29,9 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseCors("AllowFrontend");
 
+var apiKey = Environment.GetEnvironmentVariable("LIVEKIT_API_KEY");
+var apiSecret = Environment.GetEnvironmentVariable("LIVEKIT_API_SECRET");
+
 // LiveKit Token Endpoints
 app.MapPost("/api/token/provider", (LiveKitService liveKit, ProviderTokenRequest request) =>
 {

@@ -10,4 +10,4 @@ FROM mcr.microsoft.com/dotnet/aspnet:10.0
 WORKDIR /app
 COPY --from=build /app/out .
 
-ENTRYPOINT ["dotnet", "telehealth.dll"]
+ENTRYPOINT ["dotnet", "telehealth.dll"] 
